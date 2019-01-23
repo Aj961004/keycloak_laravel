@@ -1,7 +1,8 @@
 # exemplo_laravel_keycloak
 Exemplo de aplicação com adaptador de keycloak / php / laravel
+Criando custom [Guard](https://github.com/ceciliarb/exemplo_laravel_keycloak/blob/master/app/Services/Auth/KeycloakGuard.php) e [UserProvider](https://github.com/ceciliarb/exemplo_laravel_keycloak/blob/master/app/Extensions/KeycloakUserProvider.php).
 
-Utilizando os pacotes:
+Utilizamos os pacotes:
 
 ## OAuth 2.0 Client
 
