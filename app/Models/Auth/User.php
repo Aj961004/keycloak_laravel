@@ -4,8 +4,6 @@ namespace App\Models\Auth;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Stevenmaguire\OAuth2\Client\Provider\Keycloak;
 use League\OAuth2\Client\Token\AccessToken;
-use function GuzzleHttp\json_encode;
-
 
 class User implements Authenticatable
 {
